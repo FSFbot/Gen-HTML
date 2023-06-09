@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@100;300;500;700&display=swap%27');
 
 :root {
-    --background-page:#E5E9F0;
+    --background-page:#5E81AC;
     --background-nav: #5e81ac;
-    --background-sobre: #ebcb8b;
+    --background-sobre: #81A1C1;
     --background-footer: #2e3440;
 
 
  
-    --cor-fonte-padrao: #2e3440;
+    --cor-fonte-padrao: #ECEFF4;
     --cor-fonte-nav: #FFFFFF;
     --cor-fonte-by: #D08770;
     --cor-fonte-button-hover: #EBCB8B;
@@ -85,25 +85,29 @@ nav a, .titulo{
 }
 .titulo{
     font-size: 2rem;
-    color:#3B4252 ;
+    color:#ECEFF4 ;
 }
 ul{
     display: flex;
     align-items: center;
     gap: 1rem;
     list-style: none;
-    background: #cbd1db;
-   gap: 3rem;
-   font-size: 1.5em;
-   margin: 0 10px;
+    background: #81A1C1;
+    gap: 3rem;
+    font-size: 1.5em;
+    margin: 0 10px;
+    border-radius: 2rem;
   
 }
 li{
     padding: 0 10px;
 }
 li:hover{
-   background: #E5E9F0;
+   background: #5E81AC;
+   color: #cbd1db;
    padding: 0 10px;
+   border-radius: 2rem;
+
 }
 main{
     width: 80vw;
