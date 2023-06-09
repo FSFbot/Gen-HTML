@@ -66,6 +66,10 @@ a{
 a:hover{
     text-shadow: 0 0 5px var(--cor-sombra-hover);
 }
+nav{
+    display: flex;
+    align-items: center;
+}
 nav a, .titulo{
     color: var(--cor-fonte-nav);
     letter-spacing: 3px;
@@ -75,13 +79,15 @@ nav a, .titulo{
 .logo{
     display: flex;
     width: 20%;
-    justify-content: left;
     gap: 0.5rem;
-    align-items: center;
+ 
 }
 .logo img{
-    width: 27rem;
-    border-radius: 0 2rem 2rem 2rem;
+    width: 8rem;
+    border-radius: 100%;
+    margin: 2em 2em;
+    padding: auto;
+    
 }
 .titulo{
     font-size: 2rem;
@@ -90,13 +96,15 @@ nav a, .titulo{
 ul{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1rem;
     list-style: none;
     background: #81A1C1;
-    gap: 3rem;
+    gap: 20rem;
     font-size: 1.5em;
     margin: 0 10px;
     border-radius: 2rem;
+    
   
 }
 li{
@@ -130,8 +138,21 @@ main{
     border-radius: 20px;
     box-shadow: 3px 3px 4px var(--gray);
 }
+#tech-imagens{
+    background: #5E81AC;
+    gap: 5rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#tech-imagens li img{
+    width: 6rem;
+  
+}
 #video{
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
 }
 .video{
     width: 60vh;
@@ -140,6 +161,7 @@ main{
     display: block;
     border-radius: 8px;
     margin-top: 2rem;
+    
 }
 footer{
     width: 80vw;
