@@ -1,0 +1,58 @@
+:root {
+    --background-page:#5E81AC;
+    --background-nav: #5e81ac;
+    --background-sobre: #81A1C1;
+    --background-footer: #2e3440;
+
+
+ 
+    --cor-fonte-padrao: #ECEFF4;
+    --cor-fonte-nav: #FFFFFF;
+    --cor-fonte-by: #D08770;
+    --cor-fonte-button-hover: #EBCB8B;
+
+
+  
+    --lato-roboto: 'lato', Roboto;
+    --lato-cursive: 'lato', cursive;
+
+    
+    --cor-sombra: #8FBCBB;
+    --cor-sombra-hover: #5E81AC;
+    --cor-button-hover: #5E81AC;
+    --cor-placeholder-effect: #5E81AC;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: var(--background-page);
+    color: var(--cor-fonte-padrao);
+}
+label {
+    display: block;
+    margin-top: 10px;
+
+}
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+button {
+    background-color: var(--background-footer);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #79ca7d;
+}
+.error {
+    color: red;
+    font-size: 14px;
+}
