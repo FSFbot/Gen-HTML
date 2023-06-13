@@ -12,7 +12,7 @@ function validerFormulario(){
         document.getElementById("nomeErro").innerHTML = "";
     }
 
-    if(email === "" || email.value < 3){
+    if(email.value.indexOf("@") == -1 || email.value.indexOf(".") == -1){
         document.getElementById("emailErro").innerHTML = "Por favor, digite o assunto";
         erro = true;
     }else{
